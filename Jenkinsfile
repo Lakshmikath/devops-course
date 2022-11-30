@@ -25,7 +25,7 @@ pipeline {
             echo "Deployment goes here.."
             sh '''
             echo "Deploying applications"
-            echo "deploying version ${VERESION}"
+            echo "deploying version ${params.VERESION}"
             '''
         }
     }
